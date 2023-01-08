@@ -1,17 +1,17 @@
 {
-  "name": "Mango Markets Access Extension",
+  "name": "Drift Access Extension",
   "version": "1.0",
-  "description": "Helps access Mango Markets when you are on international airplane WiFi.",
+  "description": "Helps access Drift when you are on international airplane WiFi.",
   "manifest_version": 2,
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "https://trade.mango.markets/*",
-    "https://country-code.mangomarkets.workers.dev/*"
+    "https://app.drift.trade//*",
+    "https://geolocation.drift-labs.workers.dev/*"
   ],
   "background": {
     "scripts": [
-      "mango.js"
+      "drift.js"
     ],
     "persistent": true
   }

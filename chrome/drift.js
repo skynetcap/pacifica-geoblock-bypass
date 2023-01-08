@@ -1,8 +1,8 @@
-let pattern = "https://country-code.mangomarkets.workers.dev/*";
+let pattern = "https://geolocation.drift-labs.workers.dev/*";
 
 function redirect(requestDetails) {
     return {
-        redirectUrl: "https://raw.githubusercontent.com/skynetcap/mango-extension/main/country"
+        redirectUrl: "https://raw.githubusercontent.com/skynetcap/drift-extension/main/country"
     };
 }
 

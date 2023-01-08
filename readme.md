@@ -1,6 +1,6 @@
-# Mango Markets chrome access extension
+# Drift chrome access extension
 
-Allows access to Mango Markets when in a geo-blocked region.
+Allows access to Drift when in a geo-blocked region.
 
 ## Steps
 - Clone repo
