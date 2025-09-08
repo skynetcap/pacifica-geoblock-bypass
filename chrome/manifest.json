@@ -1,7 +1,7 @@
 {
-  "name": "Drift Access Extension",
+  "name": "Drift Protocol Access Extension",
   "version": "1.0.0",
-  "description": "Helps access Drift when you are on international airplane WiFi.",
+  "description": "Helps access Drift Protocol when you are geo-blocked.",
   "manifest_version": 3,
   "permissions": ["declarativeNetRequest"],
   "host_permissions": [

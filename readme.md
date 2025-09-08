@@ -1,4 +1,4 @@
-# Drift chrome access extension
+# Drift Protocol chrome access extension
 
 Allows access to Drift when in a geo-blocked region.
 
