@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "Helps access Drift when you are on international airplane WiFi.",
   "manifest_version": 3,
-  "permissions": ["webRequest"],
+  "permissions": ["declarativeNetRequest"],
   "host_permissions": [
     "https://app.drift.trade/*",
     "https://geolocation.drift-labs.workers.dev/*"
   ],
-  "background": {
-    "service_worker": "drift.js"
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "rules",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
   }
 }
