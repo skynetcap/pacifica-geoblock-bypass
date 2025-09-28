@@ -5,11 +5,11 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "url": "https://raw.githubusercontent.com/skynetcap/drift-extension/main/country"
+        "url": "https://raw.githubusercontent.com/skynetcap/pacifica-extension/main/country"
       }
     },
     "condition": {
-      "urlFilter": "https://geolocation.drift-labs.workers.dev/",
+      "urlFilter": "https://app.pacifica.fi/api/geo",
       "resourceTypes": ["xmlhttprequest"]
     }
   }

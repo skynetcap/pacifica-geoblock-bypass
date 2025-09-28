@@ -1,12 +1,12 @@
 {
-  "name": "Drift Protocol Access Extension",
+  "name": "Pacifica Access Extension",
   "version": "1.0.0",
-  "description": "Helps access Drift Protocol when you are geo-blocked.",
+  "description": "Helps access Pacifica when you are geo-blocked.",
   "manifest_version": 3,
   "permissions": ["declarativeNetRequest"],
   "host_permissions": [
-    "https://app.drift.trade/*",
-    "https://geolocation.drift-labs.workers.dev/*"
+    "https://app.pacifica.fi/*",
+    "https://app.pacifica.fi/api/geo*"
   ],
   "declarative_net_request": {
     "rule_resources": [
